@@ -28,7 +28,7 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
   "cabin": cabin of the fare product, {'Y': economy, 'C': business, 'F': first};
   "origin": origin airport;
   "destination": destination airport;
-  "demand": unconstrained demand / attractiveness value;
+  "demand": unconstrained demand/attractiveness value;
   "market": origin-destination market;
   "leg": list of flight IDs which this fare product uses}
   
@@ -37,8 +37,8 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
   key: market ID, origin+destination
   
   value:
-  {"total_demand": total demand in this origin-destination market (including competing airline);
-   "OA_demand": competing airlines' demand in this origin-destination market}
+  {"total_demand": total demand/attractiveness value in this origin-destination market (including competing airline);
+   "OA_demand": competing airlines' demand/attractiveness value in this origin-destination market}
    
 - `fleet.json`
 
