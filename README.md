@@ -25,7 +25,7 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
   
   value:
   {"fare": price of the fare product;
-  "cabin": cabin of the fare products, {'Y': economy, 'C': business, 'F': first};
+  "cabin": cabin of the fare product, {'Y': economy, 'C': business, 'F': first};
   "origin": origin airport;
   "destination": destination airport;
   "demand": unconstrained demand / attractiveness value;
