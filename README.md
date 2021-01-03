@@ -56,7 +56,7 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
   
 ## Computation Results
 
-- Subnetwork partition (<img src="https://render.githubusercontent.com/render/math?math=\Pi_c^1">, <img src="https://render.githubusercontent.com/render/math?math=\Pi_t^1">), see paper for notation.
+- Subnetwork partition (<img src="https://render.githubusercontent.com/render/math?math=\Pi_c^1">, <img src="https://render.githubusercontent.com/render/math?math=\Pi_t^1">), see paper for notation (c.f. Table 3).
 
   - ``max_profit_ratio``: 1.0%
   - number of flights in <img src="https://render.githubusercontent.com/render/math?math=\Pi_c">: 198
@@ -65,7 +65,7 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
     - of size: min: 4, max: 575, <img src="https://render.githubusercontent.com/render/math?math=|\Pi_t|">: 9
   - fare split time: 32 seconds
 
-- 5 hour CPU time, 2.3 GHz Quad-Core Intel Core i7, Gurobi 9.02, see paper for notation.
+- 5 hour CPU time, 2.3 GHz Quad-Core Intel Core i7, Gurobi 9.02, see paper for notation (c.f. Table 4).
 
 Model | Fare Split | Obj. Val. | LP Relax. | CPU Time(s) | Solver Gap | B&B Node | Profit | Annual Profit Improvement
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
