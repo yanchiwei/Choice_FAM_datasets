@@ -5,7 +5,7 @@ This repository containts a testing dataset for the paper ["Choice-Based Airline
 
 Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Market Share
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
-815 | 4290 | 47190 | 819 | 7 | 186 | 42.36%
+815 | 4,290 | 47,190 | 819 | 7 | 186 | 42.36%
 
 ## Schema
 
