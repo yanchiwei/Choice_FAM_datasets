@@ -51,3 +51,24 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
    "hourly_cost": hourly operating cost;
    "availability": number of aircraft available for this fleet type
   }
+  
+- Minimum Turn Time: 35 minutes
+  
+## Computation Results
+
+- Subnetwork partition (<img src="https://render.githubusercontent.com/render/math?math=\Pi_c^1">, <img src="https://render.githubusercontent.com/render/math?math=\Pi_t^1">), see paper for notation.
+
+  - ``max_profit_ratio``: 1.0%
+  - number of flights in <img src="https://render.githubusercontent.com/render/math?math=\Pi_c">: 198
+    - of size: 1: 95, 2: 26, 3: 17
+  - number of flights in <img src="https://render.githubusercontent.com/render/math?math=\Pi_t">: 617
+    - of size: min: 4, max: 575, <img src="https://render.githubusercontent.com/render/math?math=|\Pi_t|">: 9
+
+- 5 hour CPU time, 2.3 GHz Quad-Core Intel Core i7, Gurobi 9.02, see paper for notation.
+
+Model | Fare Split | Obj.Val. | LP Relax. | CPU Time(s) | Solver Gap | B&B Node | Profit | Annual Profit Improvement
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+ISD-FAM | -- | 4,317,738 | 4,573,773 | 18,000 | 0.03% |  34,336 | 6,157,037 | 0
+ISD-FAM-SR-ITIN | -- | 3,948,695 | 4,130,687 | 18,000 | 1.46% |  14,427 | 6,080,153 | (28.06) Million
+CSD-FAM | -- | 6,172,158 | 6,740,345 | 18,000 | 4.53% |  8,838 | 6,172,158 | 5.52 Million
+S-CSD-FAM(<img src="https://render.githubusercontent.com/render/math?math=\Pi_c^1">, <img src="https://render.githubusercontent.com/render/math?math=\Pi_t^1">) | -- | 6,373,924 | 6,733,420 | 18,000 | 3.25% |  8,446 | 6,235,549 | 28.67 Million
