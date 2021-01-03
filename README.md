@@ -37,8 +37,8 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
   key: market ID, origin+destination
   
   value:
-  {"total_demand": total demand in this origin-destination market (includin competing airline);
-   "OA_demand": competin airlines' demand in this origin-destination market}
+  {"total_demand": total demand in this origin-destination market (including competing airline);
+   "OA_demand": competing airlines' demand in this origin-destination market}
    
 - `fleet.json`
 
