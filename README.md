@@ -62,7 +62,7 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
     - of size: 1: 95, 2: 26, 3: 17
   - number of flights in <img src="https://render.githubusercontent.com/render/math?math=\Pi_t">: 617
     - of size: min: 4, max: 575, <img src="https://render.githubusercontent.com/render/math?math=|\Pi_t|">: 9
-  - fare split time: 32 seconds
+  - fare optimization CPU time: 32 seconds
 
 - 5 hour CPU time, 2.3 GHz Quad-Core Intel Core i7, Gurobi 9.02, see paper for notation (cf. Table 4).
 
