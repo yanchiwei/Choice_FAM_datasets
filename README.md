@@ -1,4 +1,4 @@
-# Testing Data Set for Choice-Based Fleet Assignment and Schedule Design
+# Testing Dataset for Choice-Based Fleet Assignment and Schedule Design
 This repository containts a testing dataset for the paper ["Choice-Based Airline Schedule Design and Fleet Assignment: A Decomposition Approach"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3513164).
 
 ## Instance Summary
@@ -50,7 +50,7 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
    "YCAP": seats in Y cabin;
    "hourly_cost": hourly operating cost;
    "availability": number of aircraft available for this fleet type}
-  
+  I
 - Minimum Turn Time: 35 minutes
   
 ## Computation Results
