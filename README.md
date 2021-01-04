@@ -50,7 +50,7 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
    "YCAP": seats in Y cabin;
    "hourly_cost": hourly operating cost;
    "availability": number of aircraft available for this fleet type}
-  I
+  
 - Minimum Turn Time: 35 minutes
   
 ## Computation Results
