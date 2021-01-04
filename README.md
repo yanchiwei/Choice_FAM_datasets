@@ -68,7 +68,7 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
 
 Model | Fare Split | Obj. Val. | LP Relax. | CPU Time(s) | Solver Gap | B&B Node | Profit | Annual Profit Improvement
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
-<sub> ISD-FAM </sub>| -- | 4,317,738 | 4,573,773 | 18,000 | 0.03% |  34,336 | 6,157,037 | 0 Million
-<sub> ISD-FAM-SR-ITIN </sub>| -- | 3,948,695 | 4,130,687 | 18,000 | 1.46% |  14,427 | 6,080,153 | (28.06) Million
-<sub> CSD-FAM </sub>| -- | 6,172,158 | 6,740,345 | 18,000 | 4.53% |  8,838 | 6,172,158 | 5.52 Million
-<sub> S-CSD-FAM </sub>(<img src="https://render.githubusercontent.com/render/math?math=\Pi_c">, <img src="https://render.githubusercontent.com/render/math?math=\Pi_t">) | opt | 6,373,924 | 6,733,420 | 18,000 | 3.25% |  8,446 | 6,235,549 | 28.67 Million
+ISD-FAM | -- | 4,317,738 | 4,573,773 | 18,000 | 0.03% |  34,336 | 6,157,037 | 0 Million
+ISD-FAM-SR-ITIN | -- | 3,948,695 | 4,130,687 | 18,000 | 1.46% |  14,427 | 6,080,153 | (28.06) Million
+CSD-FAM | -- | 6,172,158 | 6,740,345 | 18,000 | 4.53% |  8,838 | 6,172,158 | 5.52 Million
+S-CSD-FAM (<img src="https://render.githubusercontent.com/render/math?math=\Pi_c">, <img src="https://render.githubusercontent.com/render/math?math=\Pi_t">) | opt | 6,373,924 | 6,733,420 | 18,000 | 3.25% |  8,446 | 6,235,549 | 28.67 Million
