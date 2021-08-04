@@ -68,7 +68,7 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
 - 5 hour CPU time, 2.3 GHz Quad-Core Intel Core i7, Gurobi 9.02, see paper for notation (cf. Table 4).
 
 Model | Fare Split | Obj. Val. | LP Relax. | CPU Time(s) | Solver Gap | B&B Node | Profit | Num of Flight | Annual Profit Improvement (Million)
------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 ISD-FAM | -- | 4,328,945 | 4,584,530 | 18,000 | 0.04% |  30,722 | 6,159,056 | 743 | 0
 ISD-FAM-SR-ITIN | -- | 3,891,445 | 4,140,062 | 18,000 | 4.38% |  4,903 | 6,047,442 | 711 | (40.74)
 CSD-FAM | -- | 6,208,314 | 6,748,932 | 18,000 | 5.08% |  5,992 | 6,208,314 | 662 | 17.98
