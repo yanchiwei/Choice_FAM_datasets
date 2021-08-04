@@ -58,18 +58,19 @@ Flights | Itineraries | Fare Products | Markets | Fleet Types | Aircraft | Marke
 
 - Subnetwork partition (<img src="https://render.githubusercontent.com/render/math?math=\Pi_c">, <img src="https://render.githubusercontent.com/render/math?math=\Pi_t">), see paper for notation (cf. Table 3).
 
-  - ``max_profit_ratio``: 1.0%
-  - number of flights in <img src="https://render.githubusercontent.com/render/math?math=\Pi_c">: 198
-    - of size: 1: 95, 2: 26, 3: 17
-  - number of flights in <img src="https://render.githubusercontent.com/render/math?math=\Pi_t">: 617
-    - of size: min: 4, max: 575, <img src="https://render.githubusercontent.com/render/math?math=|\Pi_t|">: 9
-  - fare optimization CPU time: 32 seconds
+  - ``max_profit_ratio``: 0.5%
+  - number of flights in <img src="https://render.githubusercontent.com/render/math?math=\Pi_c">: 143
+    - of size: 1: 74, 2: 16, 3: 11, 4: 1
+  - number of flights in <img src="https://render.githubusercontent.com/render/math?math=\Pi_t">: 672
+    - of size: min: 4, max: 641, <img src="https://render.githubusercontent.com/render/math?math=|\Pi_t|">: 6
+  - fare optimization CPU time: 31 seconds
 
 - 5 hour CPU time, 2.3 GHz Quad-Core Intel Core i7, Gurobi 9.02, see paper for notation (cf. Table 4).
 
-Model | Fare Split | Obj. Val. | LP Relax. | CPU Time(s) | Solver Gap | B&B Node | Profit | Annual Profit Improvement (Million)
+Model | Fare Split | Obj. Val. | LP Relax. | CPU Time(s) | Solver Gap | B&B Node | Profit | Num of Flight | Annual Profit Improvement (Million)
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
-ISD-FAM | -- | 4,317,738 | 4,573,773 | 18,000 | 0.03% |  34,336 | 6,157,037 | 0
-ISD-FAM-SR-ITIN | -- | 3,948,695 | 4,130,687 | 18,000 | 1.46% |  14,427 | 6,080,153 | (28.06)
-CSD-FAM | -- | 6,172,158 | 6,740,345 | 18,000 | 4.53% |  8,838 | 6,172,158 | 5.52
-S-CSD-FAM (<img src="https://render.githubusercontent.com/render/math?math=\Pi_c">, <img src="https://render.githubusercontent.com/render/math?math=\Pi_t">) | opt | 6,373,924 | 6,733,420 | 18,000 | 3.25% |  8,446 | 6,235,549 | 28.67
+ISD-FAM | -- | 4,328,945 | 4,584,530 | 18,000 | 0.04% |  30,722 | 6,159,056 | 743 | 0
+ISD-FAM-SR-ITIN | -- | 3,891,445 | 4,140,062 | 18,000 | 4.38% |  4,903 | 6,047,442 | 711 | (40.74)
+CSD-FAM | -- | 6,208,314 | 6,748,932 | 18,000 | 5.08% |  5,992 | 6,208,314 | 662 | 17.98
+CSD-FAM-S | -- | 5,955,392 | 6,630,624 | 18,000 | 8.05% |  1,148 | 5,955,392 | 616 | (74.34)
+S-CSD-FAM (<img src="https://render.githubusercontent.com/render/math?math=\Pi_c">, <img src="https://render.githubusercontent.com/render/math?math=\Pi_t">) | opt | 6,328,372 | 6,721,355 | 18,000 | 3.50% |  6,936 | 6,255,524 | 679 | 35.21
