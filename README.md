@@ -1,5 +1,5 @@
 # Testing Dataset for Choice-Based Airline Fleet Assignment and Schedule Design
-This repository contains an additional synthetic testing dataset (based on realistic characteristics of data from a major carrier in 2016) for the paper ["Choice-Based Airline Schedule Design and Fleet Assignment: A Decomposition Approach"](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2022.1141) published on Transportation Science. If you use any of the material here, please include a reference to the paper and this webpage.
+This repository contains an additional synthetic testing dataset (based on realistic characteristics of data from a major carrier in 2016) for the paper ["Choice-Based Airline Schedule Design and Fleet Assignment: A Decomposition Approach"](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2022.1141) published in *Transportation Science*. If you use any of the material here, please include a reference to the paper and this webpage.
 
 
 ## Instance Summary
